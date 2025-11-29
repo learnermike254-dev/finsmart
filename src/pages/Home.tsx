@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
-import { CreditCard, Shield, Home as HomeIcon, LineChart, Sparkles, RefreshCw } from 'lucide-react';
+import { Sparkles, RefreshCw } from 'lucide-react';
 import { INITIAL_ARTICLES } from '../constants';
 import { generateTrendingTopics } from '../services/gemini';
 import { AdBanner } from '../components/AdBanner';
@@ -38,7 +38,7 @@ export const Home: React.FC = () => {
               Financial Freedom Starts Here
             </span>
             <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
-              Smart Finance & Insurance <br/> Guides for 2025
+              Smart Finance & Insurance <br/> Guides for 2025 -2026
             </h1>
             <p className="text-brand-100 text-lg md:text-xl mb-8 leading-relaxed max-w-2xl">
               Navigate the complex world of money with expert advice on credit cards, 

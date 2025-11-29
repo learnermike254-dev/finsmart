@@ -7,9 +7,7 @@ export const Category: React.FC = () => {
   const { slug } = useParams<{ slug: string }>();
   
   // Helper to match slug to category name in constant (simple fuzzy match for demo)
-  const categoryName = slug?.replace(/-/g, ' ').replace(/\b\w/g, l => l.toUpperCase()) 
-    .replace('And', '&') // Fix "Loans & Mortgages" etc
-    .replace('Budgeting & Apps', 'Budgeting & Apps'); // Edge case handling could be better in real app
+  // Removed unused categoryName variable
     
   // Filter logic
   // Since slug "credit-cards" maps to "Credit Cards", we do a includes check or simple mapping

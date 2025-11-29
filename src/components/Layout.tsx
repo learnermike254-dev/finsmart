@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Menu, X, Search, TrendingUp, Shield, CreditCard, DollarSign } from 'lucide-react';
+import { Menu, X, Search, TrendingUp } from 'lucide-react';
 import { NAV_ITEMS } from '../constants';
 
 const Footer = () => (

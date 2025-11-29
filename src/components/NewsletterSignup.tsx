@@ -26,7 +26,7 @@ export const NewsletterSignup: React.FC = () => {
   }
 
   return (
-    <div className="bg-slate-900 text-white p-8 rounded-xl shadow-lg relative overflow-hidden">
+    <div className="bg-slate-900 text-white p-12 rounded-xl shadow-lg relative overflow-hidden">
       <div className="absolute top-0 right-0 -mr-16 -mt-16 w-64 h-64 bg-brand-500 opacity-10 rounded-full blur-3xl"></div>
       
       <div className="relative z-10">
@@ -44,9 +44,9 @@ export const NewsletterSignup: React.FC = () => {
           />
           <button 
             type="submit" 
-            className="bg-brand-500 hover:bg-brand-400 text-white font-semibold px-6 py-3 rounded-lg transition-colors duration-200"
+            className="bg-brand-500 hover:bg-brand-400 text-white font-semibold px-4 py-1 rounded-lg transition-colors duration-200"
           >
-            Subscribe
+            Join
           </button>
         </form>
         <p className="text-xs text-slate-500 mt-4">We respect your privacy. Unsubscribe at any time.</p>
